@@ -13,9 +13,9 @@
 </head>
 
 <body class="debug">
+        
+        <!-- Tolgo il tag header se no non funziona lo sticky -->
 
-    <!-- header -->
-    <header>
         <!-- Top header -->
         <div class="top-header ">
             <div class="container-fluid h-100 d-flex align-items-center justify-content-end">
@@ -23,10 +23,10 @@
             </div>
         </div>
 
-        <!-- Menu di navigazione -->
-        <div class="bottom-header">
+        <!-- Bottom header sticky -->
+        <div class="bottom-header sticky-top">
             
-            <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
 
                     <!-- Left menu -->
@@ -38,7 +38,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown  pe-2">
                                 <a class="nav-link my__dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Giochi
                                 </a>
@@ -48,7 +48,7 @@
                                     <li><a class="dropdown-item" href="#">Crash Bandicoot</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown  pe-2">
                                 <a class="nav-link my__dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Hardware
                                 </a>
@@ -58,7 +58,7 @@
                                     <li><a class="dropdown-item" href="#">Crash Bandicoot</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown  pe-2">
                                 <a class="nav-link my__dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Servizi
                                 </a>
@@ -68,7 +68,7 @@
                                     <li><a class="dropdown-item" href="#">Crash Bandicoot</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown  pe-2">
                                 <a class="nav-link my__dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Novità
                                 </a>
@@ -78,7 +78,7 @@
                                     <li><a class="dropdown-item" href="#">Crash Bandicoot</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown  pe-2">
                                 <a class="nav-link my__dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Fai acquisti
                                 </a>
@@ -88,7 +88,7 @@
                                     <li><a class="dropdown-item" href="#">Crash Bandicoot</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown  pe-2">
                                 <a class="nav-link my__dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Supporto
                                 </a>
@@ -121,11 +121,9 @@
                 </div>
             </nav>
         </div>
-    </header>
-    <!-- / header -->
 
     <!-- jumbotron -->
-    <section id="jumbotron" class="text-light ">
+    <section id="jumbotron" class="text-light position-relative">
         <div class="container-fluid h-100 d-flex flex-column justify-content-end">
             <div class="row">
                 <div class="col-10 col-md-7 col-lg-3">
@@ -133,18 +131,158 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col col-lg-5">
+                <h2 class="my__title mt-3">Rompi il cerchio</h2>
+                </div>
+            <div class="row">
                 <div class="col col-lg-3">
-                <h2 class="my__title">Rompi il cerchio</h2>
                 <p class="my__paragraph">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p> 
-                <button class="btn bg-danger rounded-pill text-light">Acquista ora</button>
+                <button class="btn bg-danger rounded-pill text-light">Acquista ora</button></div>
             </div>
         </div>
     </section>
     <!-- / jumbotron -->
-    
-    <!-- main -->
-    <main>
 
+    <!-- main -->
+    <main class="position-relative">
+
+        <!-- slider game -->
+        <section id="slider-game">
+            <div class="container-fluid">
+            
+                <div class="row mt-3 justify-content-lg-around">
+
+                    <div class="col-6 col-sm-4 col-lg-2 p-3 my__card_game">
+                        <a href="#">
+                            <div class="my__card_image my__card_game-active">
+                                <img class="w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+                            </div> 
+                        </a>
+                    </div>
+                
+                
+                    <div class="col-6 col-sm-4 col-lg-2 p-3 my__card_game ">
+                        <a href="#">
+                            <div class="my__card_image ">
+                                <img class="w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal">
+                            </div>
+                        </a>    
+                    </div>
+                
+                
+                    <div class="col-6 col-sm-4 col-lg-2 p-3 my__card_game">
+                        <a href="#">
+                            <div class="my__card_image ">
+                                <img class="w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+                            </div>
+                        </a>    
+                    </div>
+                
+                
+                    <div class="col-6 col-sm-4 col-lg-2 p-3 my__card_game">
+                        <a href="#">
+                            <div class="my__card_image ">
+                                <img class="w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal">
+                            </div>
+                        </a>    
+                    </div>
+                
+                
+                    <div class="col-6 col-sm-4 col-lg-2 p-3 my__card_game">
+                        <a href="#">
+                            <div class="my__card_image ">
+                                <img class="w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+                            </div>
+                        </a>    
+                    </div>
+                
+                
+                    <div class="col-6 col-sm-4 col-lg-2 p-3 my__card_game">
+                        <a href="#">
+                            <div class="my__card_image ">
+                                <img class="w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal">
+                            </div>
+                        </a>    
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        <!-- / slider game -->
+
+        <!-- playstation 5 -->
+        <section id="playstation5">
+            <div class="container-fluid d-flex flex-column">
+                <!-- section top -->
+                <div class="row text-center pb-5">
+                    <h4 class="text-uppercase my__blue">play has no limits</h4>
+                    <h2 class="my__title">Ecco la Playstation 5</h2>
+                    <p class="my__paragraph fs-4">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                </div>
+                <!-- / section top -->
+
+                <!-- section bottom -->
+                <div class="row align-items-center pb-5">
+                    <div class="col-12 col-md-5 col-lg-5">
+                        <h2 class="my__title">Console Playstation 5</h2>
+                        <p class="my__paragraph .text-muted fs-4">Sperimenta la nuova generazione di incredibili giochi Playstation.</p>
+                        <button class="btn my__blue-bg rounded-pill text-light">Maggiori informazioni</button>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-7">
+                            <img class="w-100" src="img/playstation-5-thumb.png" alt="">
+                    </div>
+                </div>
+                <!-- / section bottom -->
+
+                <!-- section accessories -->
+                <div class="row justify-content-md-around text-center">
+                    
+                        <div class="col-4 col-md-2 pb-3 my__accessory my__accessory-active">
+                            <a class="text-reset text-decoration-none" href="">
+                                <img class="w-100" src="img/playstation-5-thumb.png" alt="ps5">
+                                <div class="my__accessory_desc d-none d-md-block pt-4">
+                                    <span class="fs-4">Console PS5</span>
+                                </div>
+                            </a>
+                        </div>
+                    
+                    <div class="col-4 col-md-2 pb-3 my__accessory ">
+                        <a class="text-reset text-decoration-none" href="">
+                            <img class="w-100" src="img/joypad-thumb.png" alt="joypad">
+                            <div class="my__accessory_desc d-none d-md-block pt-4">
+                                <span class="fs-4">Controller wireless DualSense<sup class="my__sup">TM</sup></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-4 col-md-2 pb-3 my__accessory ">
+                        <a class="text-reset text-decoration-none" href="">
+                            <img class="w-100" src="img/headset-thumb.png" alt="headset">
+                            <div class="my__accessory_desc d-none d-md-block pt-4">
+                                <span class="fs-4">Cuffie wireless con microfono PULSE 3<sup class="my__sup">TM</sup></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-4 col-md-2 pb-3 my__accessory ">
+                        <a class="text-reset text-decoration-none" href="">
+                            <img class="w-100" src="img/remote-thumb.png" alt="remote">
+                            <div class="my__accessory_desc d-none d-md-block pt-4">
+                                <span class="fs-4">Telecomando Media</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-4 col-md-2 pb-3 my__accessory ">
+                        <a class="text-reset text-decoration-none" href="">
+                            <img class="w-100" src="img/camera-thumb.jpg" alt="camera">
+                            <div class="my__accessory_desc d-none d-md-block pt-4">
+                                <span class="fs-4">Telecamera HD</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- / playstation 5 -->
     </main>
     <!-- / main -->
 

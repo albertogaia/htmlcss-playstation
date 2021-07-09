@@ -9,6 +9,12 @@ body {font-family: Arial, Helvetica, sans-serif sans-serif;}
 /* COMMON */
 
 section {padding: 20px 30px 50px 30px;}
+.my__blue {color: rgb(42, 86, 168)}
+.my__blue-bg {background: rgb(42, 86, 168);}
+.my__btn {text-decoration: none; cursor: pointer; margin: 20px 0px;}
+.my__title {font-size: 2.8em ;}
+.my__paragraph {padding: 20px 0px;}
+.my__sup {font-size: 0.5em;}
 
 /* modifico la chevron down per menu a comparsa */
 .my__dropdown-toggle::after {
@@ -25,15 +31,13 @@ section {padding: 20px 30px 50px 30px;}
 	width: 0.45em;
 }
 
-.my__btn {text-decoration: none; cursor: pointer; margin: 20px 0px;}
-.my__title {margin: 20px 0px;}
-.my__paragraph {padding: 20px 0px;}
+
 
 /* HEADER */
 .top-header {height: 30px; background: black;}
 .top-header img {height: 15px;}
+.bottom-header {box-shadow: 0 3px 3px rgba(0, 0, 0, 0.116);}
 
-/* MAIN */
 
 /* JUMBOTRON */
 #jumbotron {
@@ -48,12 +52,18 @@ section {padding: 20px 30px 50px 30px;}
 /* SLIDER GAME */
 .my__card_game {padding: 3px; }
 .my__card_image {border-radius: 10px; overflow: hidden;}
-.my__card_game-active {box-shadow: 0 0 0 4px white, 0 0 0 8px rgb(42, 86, 168);}
+.my__card_game-active {box-shadow: 0 0 0 4px white, 0 0 0 8px rgba(42, 86, 168, 0.452);}
+.my__card_game-active:hover{box-shadow: 0 0 0 4px white, 0 0 0 8px rgba(42, 86, 168, 1);}
 .my__card_image:not(.my__card_game-active) {opacity: 0.8;}
 .my__card_image:hover {opacity: 1; transform: translateY(-20px);} /* da migliorare animazione */
 
-
-
+/* PLAYSTATION 5 */
+.my__accessory {opacity: 0.6;}
+.my__accessory-active {
+    opacity: 1;
+    border-bottom: 2px solid rgb(42, 86, 168);
+}
+.my__accessory:hover {opacity: 1;}
 
 
 /* FOOTER */
