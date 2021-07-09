@@ -13,7 +13,7 @@ section {padding: 20px 30px 50px 30px;}
 .my__blue {color: rgb(42, 86, 168)}
 .my__blue-bg {background: rgb(42, 86, 168);}
 .my__grey-bg {background: rgb(236, 236, 236);}
-.my__btn:hover {filter: brightness(1.2)}
+.my__bright:hover {filter: brightness(1.2)}
 .my__title {font-size: 2.8em ;}
 .my__paragraph {padding: 20px 0px;}
 .my__weight-bold {font-weight: 500;}
@@ -107,6 +107,8 @@ section {padding: 20px 30px 50px 30px;}
 .my__psnow-img {
     object-fit: contain;
 }
+
+/* SOCIALS */
 
 /* FOOTER */
 
