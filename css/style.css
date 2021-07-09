@@ -19,6 +19,8 @@ section {padding: 20px 30px 50px 30px;}
 .my__weight-bold {font-weight: 500;}
 .my__sup {font-size: 0.5em;}
 .my__txt-shadow{text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.438);}
+.my__deactive {opacity: 0.8}
+.my__deactive:hover {opacity: 1}
 
 /* modifico la chevron down per menu a comparsa */
 .my__dropdown-toggle::after {
@@ -92,6 +94,8 @@ section {padding: 20px 30px 50px 30px;}
 .my__psPlus-img {
     object-fit: contain;
 }
+
+/* SALDI */
 
 /* FOOTER */
 
