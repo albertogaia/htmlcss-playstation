@@ -111,4 +111,6 @@ section {padding: 20px 30px 50px 30px;}
 /* SOCIALS */
 
 /* FOOTER */
-
+#footer {padding-top: 50px;}
+.my__foot-globe{width: 20px; vertical-align: middle;}
+.my__foot__bottom-img {width: 150px;}
