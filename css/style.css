@@ -12,9 +12,10 @@ body {font-family: Arial, Helvetica, sans-serif sans-serif;}
 section {padding: 20px 30px 50px 30px;}
 .my__blue {color: rgb(42, 86, 168)}
 .my__blue-bg {background: rgb(42, 86, 168);}
-.my__btn {text-decoration: none; cursor: pointer; margin: 20px 0px;}
+.my__btn:hover {filter: brightness(1.2)}
 .my__title {font-size: 2.8em ;}
 .my__paragraph {padding: 20px 0px;}
+.my__weight-bold {font-weight: 500;}
 .my__sup {font-size: 0.5em;}
 .my__txt-shadow{text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.438);}
 
@@ -45,7 +46,6 @@ section {padding: 20px 30px 50px 30px;}
 #jumbotron {
     height: 600px;
     background-image: url('../img/jumbo-bg.png');
-    background-size: auto;
     background-position-x: center;
     background-position-y: top;
 }
