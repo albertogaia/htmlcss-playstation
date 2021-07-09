@@ -97,5 +97,16 @@ section {padding: 20px 30px 50px 30px;}
 
 /* SALDI */
 
+/* PLAYSTATION NOW */
+#playstation-now {
+    height: 100%;
+    padding: 0px 30px;
+    background-color: rgb(27, 27, 78);
+}
+
+.my__psnow-img {
+    object-fit: contain;
+}
+
 /* FOOTER */
 
