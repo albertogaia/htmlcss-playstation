@@ -8,7 +8,7 @@ body {font-family: Arial, Helvetica, sans-serif sans-serif;}
 
 /* COMMON */
 
-section {padding: 20px 0px 50px 30px;}
+section {padding: 20px 30px 50px 30px;}
 
 /* modifico la chevron down per menu a comparsa */
 .my__dropdown-toggle::after {
@@ -39,12 +39,19 @@ section {padding: 20px 0px 50px 30px;}
 #jumbotron {
     height: 600px;
     background-image: url('../img/jumbo-bg.png');
-    background-size: cover;
+    background-size: auto;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: top;
 }
-
 #logo-returnal {margin-bottom: 30px;}
+
+/* SLIDER GAME */
+.my__card_game {padding: 3px; }
+.my__card_image {border-radius: 10px; overflow: hidden;}
+.my__card_game-active {box-shadow: 0 0 0 4px white, 0 0 0 8px rgb(42, 86, 168);}
+.my__card_image:not(.my__card_game-active) {opacity: 0.8;}
+.my__card_image:hover {opacity: 1; transform: translateY(-20px);} /* da migliorare animazione */
+
 
 
 
