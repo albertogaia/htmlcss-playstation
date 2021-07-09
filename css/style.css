@@ -4,15 +4,31 @@
     box-sizing: border-box;
 }
 
+body {font-family: Arial, Helvetica, sans-serif sans-serif;}
 
 /* COMMON */
+
+/* modifico la chevron down per menu a comparsa */
+.my__dropdown-toggle::after {
+    border-style: solid;
+	border-width: 0.15em 0.15em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.25em;
+	position: relative;
+	top: 7px;
+	transform: rotate(135deg);
+	vertical-align: top;
+	width: 0.45em;
+}
 
 /* FINE COMMON */
 
 
 /* HEADER */
-
-/* FINE HEADER */
+.top-header {height: 30px; background: black;}
+.top-header img {height: 15px;}
 
 
 /* MAIN */
