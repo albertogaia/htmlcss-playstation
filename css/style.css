@@ -8,6 +8,8 @@ body {font-family: Arial, Helvetica, sans-serif sans-serif;}
 
 /* COMMON */
 
+section {padding: 20px 0px 50px 30px;}
+
 /* modifico la chevron down per menu a comparsa */
 .my__dropdown-toggle::after {
     border-style: solid;
@@ -23,19 +25,29 @@ body {font-family: Arial, Helvetica, sans-serif sans-serif;}
 	width: 0.45em;
 }
 
-/* FINE COMMON */
-
+.my__btn {text-decoration: none; cursor: pointer; margin: 20px 0px;}
+.my__title {margin: 20px 0px;}
+.my__paragraph {padding: 20px 0px;}
 
 /* HEADER */
 .top-header {height: 30px; background: black;}
 .top-header img {height: 15px;}
 
-
 /* MAIN */
 
-/* FINE MAIN */
+/* JUMBOTRON */
+#jumbotron {
+    height: 600px;
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#logo-returnal {margin-bottom: 30px;}
+
+
 
 
 /* FOOTER */
 
-/* FINE FOOTER */
