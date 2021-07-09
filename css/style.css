@@ -75,5 +75,9 @@ section {padding: 20px 30px 50px 30px;}
     /* height: 800px; */
 }
 
+/* LAST GAMES */
+#last-games {background-color: rgb(39, 39, 39);}
+.my__last_game-img img{border-radius: 20px;}
+
 /* FOOTER */
 
