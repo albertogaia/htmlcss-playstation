@@ -12,6 +12,7 @@ body {font-family: Arial, Helvetica, sans-serif sans-serif;}
 section {padding: 20px 30px 50px 30px;}
 .my__blue {color: rgb(42, 86, 168)}
 .my__blue-bg {background: rgb(42, 86, 168);}
+.my__grey-bg {background: rgb(236, 236, 236);}
 .my__btn:hover {filter: brightness(1.2)}
 .my__title {font-size: 2.8em ;}
 .my__paragraph {padding: 20px 0px;}
@@ -78,6 +79,19 @@ section {padding: 20px 30px 50px 30px;}
 /* LAST GAMES */
 #last-games {background-color: rgb(39, 39, 39);}
 .my__last_game-img img{border-radius: 20px;}
+
+/* ESPLORA PS4 */
+
+/* PLAYSTATION PLUS */
+#playstation-plus {
+    height: 100%;
+    padding: 0px 30px;
+    background-color: lightgray;
+}
+
+.my__psPlus-img {
+    object-fit: contain;
+}
 
 /* FOOTER */
 
