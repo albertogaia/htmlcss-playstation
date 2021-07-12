@@ -61,7 +61,7 @@ section {padding: 20px 30px 50px 30px;}
 .my__card_game-active {box-shadow: 0 0 0 4px white, 0 0 0 8px rgba(42, 86, 168, 0.452);}
 .my__card_game-active:hover{box-shadow: 0 0 0 4px white, 0 0 0 8px rgba(42, 86, 168, 1);}
 .my__card_image:not(.my__card_game-active) {opacity: 0.8;}
-.my__card_image:hover {opacity: 1; transform: translateY(-20px); box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.315);} /* da migliorare animazione */
+
 
 /* PLAYSTATION 5 */
 .my__accessory {opacity: 0.6;}

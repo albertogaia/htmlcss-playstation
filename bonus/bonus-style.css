@@ -1,0 +1,21 @@
+/* animazione allo slider giochi */
+.my__card_image:hover {
+    opacity: 1; 
+    transform: translateY(-20px); 
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.315);
+    transition: 0.5s ease;
+}
+
+/* transition accessori opacity */
+.my__accessory {
+    transition: 0.5s ease;
+}
+
+/* Sticky section console ps5 su schermi > md */
+@media (min-width: 768px) {
+    .my__sticky-console {
+        position: sticky;
+        top: 100px;
+        z-index: 999;
+    }
+}
