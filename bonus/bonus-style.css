@@ -11,6 +11,8 @@
     transition: 0.5s ease;
 }
 
+
+
 /* Sticky section console ps5 su schermi > md */
 @media (min-width: 768px) {
     .my__sticky-console {
